@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Comic Relief', sans-serif;
     box-sizing: border-box;
 }
 body{
@@ -81,7 +81,7 @@ input::placeholder{
 }
 .weather h3{
     letter-spacing: 1px;
-    font-size: 25px;
+    font-size: 27px;
     font-weight: 500;
     margin-top: 2px;
 }
@@ -106,8 +106,8 @@ input::placeholder{
 }
 .humidity , .wind{
     font-size: 30px;
-    letter-spacing: 1px;
-    margin-top: 5px;
+    letter-spacing: 1.5px;
+    margin-top: 10px;
 }
 #eroor{
     text-align: left;
@@ -115,6 +115,11 @@ input::placeholder{
     margin-top: 10px;
     font-size: 15px;
     display: none;
+}
+
+.col .para{
+    font-size: 20px;
+    letter-spacing: 1.5px;
 }
 
 
