@@ -27,6 +27,10 @@ body{
   /* Optional: Add some border and shadow for glass look */
 }
 
+.temp{
+    letter-spacing: 5px;
+}
+
 .search{
     width: 100%;
     display: flex;
