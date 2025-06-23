@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="basic.css" />
+    <title>weather-App</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" placeholder="Enter City Name" />
+        <button class="button"><img src="images/scan.png" /></button>
+      </div>
+      <div><p id="eroor">Invalid city name</p></div>
+      <div class="weather">
+        <img src="images/rain.png" class="weather-icons" />
+        <h1 class="temp">22°c</h1>
+        <h2 class="city">Lucknow, India</h2>
+        <h3 class="date">Saturday, October 12, 2024 at 10:00 PM</h3>
+        <div class="details">
+          <div class="col">
+            <img src="images/humidity (1).png" />
+            <div>
+              <p class="humidity">50%</p>
+              <p class="para">Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="images/wind (1).png" />
+            <div>
+              <p class="wind">15 km/h</p>
+              <p class="paraa">Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="basic.js"></script>
+  </body>
+</html>
